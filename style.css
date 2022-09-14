@@ -1,3 +1,140 @@
-.saludo{
-    color: red;
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.div-body-central{
+    width: 1250px;
+    height: 200px;
+    border: 1px solid red;
+    margin-top: 22px;
+}
+
+.logo-header{
+    display: flex;
+    justify-content: center;
+}
+
+.header-bar-navigation{
+   margin-top: 22px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.title-navigation{
+font-family: 'Encode Sans', sans-serif;
+font-weight: Bold;
+font-size: 19px;
+line-height: 24px;
+letter-spacing: -2%;
+}
+
+.color-1{
+    color:#C3170C;
+}
+.color-2{
+    color:#1E4B9B;
+}
+.color-3{
+    color:#006766;
+}
+.color-4{
+    color:#07AA47;
+}
+.color-5{
+    color:#E3662B;
+}
+.color-6{
+    color:#FB0735;
+}
+.color-7{
+    color:#FF75BB;
+}
+.color-8{
+    color:#EC7D00;
+}
+.color-9{
+    color:#323333;
+}
+.color-10{
+    color:#A81D83;
+}
+
+
+.navigation-notice{
+    display: flex;
+    
+}
+
+.navigation-notice-left{
+    margin-top:40px;
+    width: 625px;
+    height: 100px;
+    border: 1px solid red;
+}
+.navigation-notice-right{
+    margin-top:40px;
+    width: 625px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.title-notice-left{
+    font-family: 'Encode Sans', sans-serif;
+font-style: bold;
+font-size: 52px;
+line-height: 67px;
+letter-spacing: -1%;
+}
+
+.line-glamour{
+    width: 1px;
+    height: 800px;
+    background-color: #EBEDEF;
+    margin-right: 35px;
+    margin-top: 40px;
+}
+
+.paragrafo-one{
+ 
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 18px;
+line-height: 23px;
+letter-spacing: -1%;
+}
+
+.paragrafo-one-one{
+    margin-top: 29px;
+}
+.paragrafo-one-two{
+    margin-top: 7px;
+}
+
+.line-div{
+    background-color: #EBEDEF;
+    width:570px;
+    height: 1px;
+margin-top: 25px;
+margin-bottom: 25px;
+
+}
+
+.cards{
+    width: 625px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 193px;
+    width: 110px;
+    background-color: red;
+    margin: 1px solid green;
+}
+
+.carmargin{
+    margin-right: 35px;
 }
